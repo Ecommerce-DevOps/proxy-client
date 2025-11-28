@@ -19,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/api/authenticate")
+@RequestMapping("/user-service/api/authenticate")
 @Slf4j
 @RequiredArgsConstructor
 public class AuthenticationController {

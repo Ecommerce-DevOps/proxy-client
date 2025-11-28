@@ -17,7 +17,7 @@ import com.selimhorri.app.business.user.service.CredentialClientService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/credentials")
+@RequestMapping("/user-service/api/credentials")
 @RequiredArgsConstructor
 public class CredentialController {
 	

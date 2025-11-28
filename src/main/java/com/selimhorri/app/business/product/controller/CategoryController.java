@@ -17,7 +17,7 @@ import com.selimhorri.app.business.product.service.CategoryClientService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/categories")
+@RequestMapping("/product-service/api/categories")
 @RequiredArgsConstructor
 public class CategoryController {
 	

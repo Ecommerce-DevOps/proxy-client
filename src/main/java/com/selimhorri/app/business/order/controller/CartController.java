@@ -21,7 +21,7 @@ import com.selimhorri.app.business.order.service.CartClientService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/carts")
+@RequestMapping("/order-service/api/carts")
 @RequiredArgsConstructor
 public class CartController {
 	

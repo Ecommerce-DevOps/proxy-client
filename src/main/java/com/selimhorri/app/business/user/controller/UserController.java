@@ -17,7 +17,7 @@ import com.selimhorri.app.business.user.service.UserClientService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/user-service/api/users")
 @RequiredArgsConstructor
 public class UserController {
 	

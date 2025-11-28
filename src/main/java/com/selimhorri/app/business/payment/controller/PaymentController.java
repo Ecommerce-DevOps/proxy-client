@@ -17,7 +17,7 @@ import com.selimhorri.app.business.payment.service.PaymentClientService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/api/payments")
+@RequestMapping("/payment-service/api/payments")
 @RequiredArgsConstructor
 public class PaymentController {
 	
