@@ -1,79 +1,79 @@
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/auth/service/impl/AuthenticationServiceImpl.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/payment/controller/PaymentController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/ProxyClientApplication.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/model/ProductDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/CredentialNotFoundException.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/service/CategoryClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/FavouriteId.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/constant/AppConstant.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/CredentialDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/config/template/TemplateConfig.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/PaymentDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/UserUserServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/VerificationTokenNotFoundException.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/payload/ExceptionMsg.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/auth/model/response/AuthenticationResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/controller/OrderItemController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/service/UserClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/UserDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/jwt/service/JwtService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/security/SecurityConfig.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/CredentialController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/config/filter/JwtRequestFilter.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/model/response/ProductProductServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/model/response/OrderOrderServiceDtoCollectionResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/controller/CategoryController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/ProductDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderItemId.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/model/UserDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/UserDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/model/OrderDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/auth/service/AuthenticationService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/PaymentStatus.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/AddressDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/payment/service/PaymentClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/service/OrderItemClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/service/FavouriteClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/VerificationUserTokenServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/ApiExceptionHandler.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/model/CartDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/OrderDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/response/OrderItemOrderItemServiceDtoCollectionResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/service/AddressClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/FavouriteDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/model/CategoryDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/VerificationTokenDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/VerificationTokenController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/jwt/util/impl/JwtUtilImpl.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/service/ProductClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/AddressController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/security/NoSecurityConfig.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/jwt/util/JwtUtil.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/ProductDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/payment/model/response/PaymentPaymentServiceDtoCollectionResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/service/VerificationTokenClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/service/CredentialClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/controller/FavouriteController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/model/response/CategoryProductServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/UserObjectNotFoundException.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/controller/UserController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/service/OrderClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/RoleBasedAuthority.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/model/response/CartOrderServiceDtoCollectionResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderItemDto.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/controller/OrderController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/AddressUserServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/CredentialUserServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/jwt/service/impl/JwtServiceImpl.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/service/CartClientService.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/auth/model/request/AuthenticationRequest.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/user/model/UserDetailsImpl.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/config/encoder/EncoderConfig.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/IllegalAuthenticationCredentialsException.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/FavouriteNotFoundException.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/response/FavouriteFavouriteServiceCollectionDtoResponse.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/order/controller/CartController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/auth/controller/AuthenticationController.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/auth/service/impl/UserDetailsServiceImpl.java
-/home/geoffrey0pv/Projects/2025-2/Ingeosft5/ecommerce-microservice-backend-app/proxy-client/src/main/java/com/selimhorri/app/business/product/controller/ProductController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/payment/model/PaymentDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/service/CredentialClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/controller/VerificationTokenController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/payment/service/PaymentClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/service/CategoryClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/auth/model/request/AuthenticationRequest.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/controller/OrderController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/CredentialDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/model/CategoryDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/controller/CategoryController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/service/VerificationTokenClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/model/ProductDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/payload/ExceptionMsg.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/FavouriteDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/jwt/service/impl/JwtServiceImpl.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/auth/model/response/AuthenticationResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/model/response/CartOrderServiceDtoCollectionResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/IllegalAuthenticationCredentialsException.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/AddressUserServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/service/FavouriteClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/config/template/TemplateConfig.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/response/FavouriteFavouriteServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/auth/service/AuthenticationService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/controller/AddressController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/service/AddressClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/security/NoSecurityConfig.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/UserDetailsImpl.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/payment/model/PaymentStatus.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/controller/CredentialController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/VerificationTokenNotFoundException.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/model/response/OrderOrderServiceDtoCollectionResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/UserUserServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderItemId.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/controller/OrderItemController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/config/encoder/EncoderConfig.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/model/OrderDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/auth/service/impl/AuthenticationServiceImpl.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/model/response/CategoryProductServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/ProxyClientApplication.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/response/OrderItemOrderItemServiceDtoCollectionResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/service/OrderClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/jwt/util/JwtUtil.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/UserDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/auth/service/impl/UserDetailsServiceImpl.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/controller/CartController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/UserObjectNotFoundException.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/service/CartClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/VerificationUserTokenServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/service/OrderItemClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/RoleBasedAuthority.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/constant/AppConstant.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/CredentialNotFoundException.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/auth/controller/AuthenticationController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/jwt/service/JwtService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/payment/model/OrderDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/service/UserClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/response/CredentialUserServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/VerificationTokenDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/OrderItemDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/payment/model/response/PaymentPaymentServiceDtoCollectionResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/controller/UserController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/UserDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/ApiExceptionHandler.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/model/UserDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/config/filter/JwtRequestFilter.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/orderItem/model/ProductDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/payment/controller/PaymentController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/ProductDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/controller/ProductController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/exception/wrapper/FavouriteNotFoundException.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/model/FavouriteId.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/order/model/CartDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/favourite/controller/FavouriteController.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/security/SecurityConfig.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/model/response/ProductProductServiceCollectionDtoResponse.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/product/service/ProductClientService.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/business/user/model/AddressDto.java
+/home/geoffrey0pv/Projects/2025-2/Ingeosft5/PROYECTO FINAL/Proxy-client/src/main/java/com/selimhorri/app/jwt/util/impl/JwtUtilImpl.java
