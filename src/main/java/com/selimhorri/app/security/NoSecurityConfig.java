@@ -17,18 +17,18 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  */
 @Configuration
 @EnableWebSecurity
-@Profile("staging")
+@Profile("!staging & !prod")
 public class NoSecurityConfig extends WebSecurityConfigurerAdapter {
-	
+
 	@Override
 	protected void configure(final HttpSecurity http) throws Exception {
 		http
-			.cors().disable()
-			.csrf().disable()
-			.authorizeRequests()
+				.cors().disable()
+				.csrf().disable()
+				.authorizeRequests()
 				.anyRequest().permitAll()
-			.and()
-			.headers()
+				.and()
+				.headers()
 				.frameOptions()
 				.sameOrigin();
 	}

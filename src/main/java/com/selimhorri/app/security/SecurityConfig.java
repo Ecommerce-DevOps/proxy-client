@@ -21,25 +21,25 @@ import lombok.RequiredArgsConstructor;
 
 @Configuration
 @EnableWebSecurity
-@Profile("!staging")  // Only active when NOT in staging profile
+@Profile("staging | prod")
 @RequiredArgsConstructor
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-	
+
 	private final UserDetailsService userDetailsService;
 	private final PasswordEncoder passwordEncoder;
 	private final JwtRequestFilter jwtRequestFilter;
-	
+
 	@Override
 	protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
 		auth.userDetailsService(this.userDetailsService)
-			.passwordEncoder(this.passwordEncoder);
+				.passwordEncoder(this.passwordEncoder);
 	}
-	
+
 	@Override
 	protected void configure(final HttpSecurity http) throws Exception {
 		http.cors().disable()
-			.csrf().disable()
-			.authorizeRequests()
+				.csrf().disable()
+				.authorizeRequests()
 				.antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 				.antMatchers("/", "index", "**/css/**", "**/js/**").permitAll()
 				.antMatchers("/user-service/api/authenticate/**").permitAll()
@@ -47,40 +47,28 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.antMatchers("/product-service/api/products/**").permitAll()
 				.antMatchers(HttpMethod.POST, "/user-service/api/users").permitAll()
 				.antMatchers("/**/api/**")
-					.hasAnyRole(RoleBasedAuthority.ROLE_USER.getRole(), 
-							RoleBasedAuthority.ROLE_ADMIN.getRole())
+				.hasAnyRole(RoleBasedAuthority.ROLE_USER.getRole(),
+						RoleBasedAuthority.ROLE_ADMIN.getRole())
 				.antMatchers("/actuator/health/**", "/actuator/info/**")
-					.permitAll()
+				.permitAll()
 				.antMatchers("/actuator/**")
-					.hasAnyRole(RoleBasedAuthority.ROLE_ADMIN.getRole())
+				.hasAnyRole(RoleBasedAuthority.ROLE_ADMIN.getRole())
 				.anyRequest().authenticated()
-			.and()
-			.headers()
+				.and()
+				.headers()
 				.frameOptions()
 				.sameOrigin()
-			.and()
-			.sessionManagement()
+				.and()
+				.sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-			.and()
-			.addFilterBefore(this.jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+				.and()
+				.addFilterBefore(this.jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 	}
-	
+
 	@Bean
 	@Override
 	public AuthenticationManager authenticationManagerBean() throws Exception {
 		return super.authenticationManagerBean();
 	}
-	
-	
-	
+
 }
-
-
-
-
-
-
-
-
-
-
